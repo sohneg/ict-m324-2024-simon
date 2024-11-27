@@ -93,6 +93,7 @@
 1. **ESLint installieren und konfigurieren**:
 
    - Installieren und initialisieren Sie ESLint. https://eslint.org/
+     Achten Sie darauf, dass ESLint bei den devDependencies installiert wird.
 
    - Verwenden Sie diese Konfiguration:
 
@@ -135,6 +136,7 @@
 2. **Prettier für Codeformatierung**:
 
    - Installieren Sie Prettier und erstellen Sie `.prettierrc`:
+     Achten Sie darauf, dass Prettier bei den devDependencies installiert wird.
      ```bash
      npm install prettier
      ```
