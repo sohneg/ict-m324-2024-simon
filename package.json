@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "start": "npm run lint && npm run format-check && npm run test && node index.js",
     "lint": "eslint .",
     "format-write": "prettier --write .",
     "format-check": "prettier --check .",
