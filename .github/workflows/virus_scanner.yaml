@@ -1,0 +1,17 @@
+name: virus-scanner
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  virus-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Scan Virus
+        if: 1 == 2
+        uses: hugoalh/scan-virus-ghaction@v0.20.1
