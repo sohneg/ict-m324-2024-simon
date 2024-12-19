@@ -1,4 +1,4 @@
-name: virus-scanner
+name: comment-on-pr
 
 on:
   pull_request:
