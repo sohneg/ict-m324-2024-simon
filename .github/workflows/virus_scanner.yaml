@@ -15,4 +15,3 @@ jobs:
       - name: Scan Virus
         if: 1 == 2
         uses: hugoalh/scan-virus-ghaction@v0.20.1
-            
